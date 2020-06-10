@@ -71,7 +71,7 @@ class_names = ['BG','watermelon', 'strawberry-ripe', 'strawberry-nonripe']
 # class_names = ['BG', 'strawberry', 'watermelon']
 
 file_names = next(os.walk(IMAGE_DIR))[2]
-image = skimage.io.imread('/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/datasets/test/STR-050z.jpg')
+image = skimage.io.imread('/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/datasets/test/harvestingge.jpg')
 
 # Run detection
 results = model.detect([image], verbose=1)

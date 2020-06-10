@@ -1,0 +1,213 @@
+
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/
+saving /Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/w1.jpg
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/mask_rcnn_serverv2.py", line 149, in upload
+    image = Image.open(BytesIO(base64.b64decode(img.read())))
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/PIL/Image.py", line 2896, in open
+    "cannot identify image file %r" % (filename if filename else fp)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x16990ce60>
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/
+saving /Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/w1.jpg
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/mask_rcnn_serverv2.py", line 151, in upload
+    image = Image.open(BytesIO(base64.b64decode(img_string)))
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/PIL/Image.py", line 2896, in open
+    "cannot identify image file %r" % (filename if filename else fp)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x16990ce60>
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/
+saving /Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/w1.jpg
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/
+saving /Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/w1.jpg
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/mask_rcnn_serverv2.py", line 170, in upload
+    print(type())
+TypeError: type() takes 1 or 3 arguments
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/
+saving /Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/w1.jpg
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/
+saving /Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/w1.jpg
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/
+saving /Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/w1.jpg
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/
+saving /Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/w1.jpg
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/
+saving /Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/w1.jpg
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/
+saving /Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/w1.jpg
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/
+saving /Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/w1.jpg
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/
+saving /Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/w1.jpg
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/
+saving /Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/w1.jpg
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/
+saving /Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/w1.jpg
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/
+saving /Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/sw1.jpg
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/
+saving /Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/sw1.jpg
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/
+saving /Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/sw1.jpg
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/
+saving /Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/sw1.jpg
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/
+saving /Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/sw1.jpg
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/
+saving /Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/wm1.jpg
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/
+saving /Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/sw1.jpg
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/
+saving /Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/w1.jpg
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/
+saving /Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/w1.jpg
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/
+saving /Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/sb2.jpg
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/
+saving /Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/IMG_7999.jpg
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/
+saving /Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/WechatIMG50.jpg
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/
+saving /Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/WechatIMG50.jpg
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/
+saving /Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/WechatIMG53.jpg
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/
+saving /Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/WechatIMG53.jpg
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/
+saving /Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/sb1.jpg
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/
+saving /Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/commodity-blueberry.jpg
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/
+saving /Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/sw1.jpg
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/
+saving /Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/sb2.jpg
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/
+saving /Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/strawberry_in_field.jpg
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/
+saving /Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/strawberries-1.jpg
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/
+saving /Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/IMG_7999.jpg
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/
+saving /Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/w1.jpg
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/
+saving /Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/watermelontest.jpg
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/
+saving /Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/krish-gandhi-Y8ufF1Rwzmc-unsplash.jpg
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/
+saving /Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/108756_strawberry.jpg
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/
+saving /Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/sb1.jpg
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/
+saving /Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/sb1.jpg
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/
+saving /Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/Green_strawberry.jpeg
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/
+saving /Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/Green_strawberry.jpeg
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/
+saving /Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/harvestingge.jpg
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/
+saving /Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/harvestingge.jpg
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/
+saving /Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/harvestingge.jpg
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/
+saving /Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/strawberries-1.jpg
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/
+saving /Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/strawberries-1.jpg
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/
+saving /Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/Green_strawberry.jpeg
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/
+saving /Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/Green_strawberry.jpeg
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN
+/Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/
+saving /Users/hailieboomboom/Documents/GitHub/FlaskMaskRCNN/uploads/IMG_7999.jpg
